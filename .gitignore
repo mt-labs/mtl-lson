@@ -1,0 +1,10 @@
+# Log files
+*.log
+
+# Node modules directory
+node_modules
+
+# Special git files
+!.gitattributes
+!.gitignore
+!.gitkeep

@@ -1,0 +1,27 @@
+{
+  "name": "mtl-lson",
+  "version": "0.1.0",
+  "description": "LSON (LooSe Object Notation) parsing functions.",
+  "author": "Matthew Lawrence-Stubley <quakematt@outlook.com>",
+  "scripts": {
+    "test": "npm run test-node && npm run test-browser",
+    "test-node": "mocha -R spec ./test/**/*.spec.js",
+    "test-browser": "mochify -R spec ./test/**/*.spec.js"
+  },
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mt-labs/mtl-lson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mt-labs/mtl-lson/issues"
+  },
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0",
+    "mochify": "^2.1.1",
+    "sinon": "^1.12.2"
+  }
+}
